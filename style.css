@@ -21,7 +21,7 @@ body {
   width: calc(100%);
   text-align: center;
   justify-content: center;
-  height: 50vh;
+  height: 70vh;
 }
 .image-container img {
   max-width: calc(100%);
@@ -79,6 +79,12 @@ body {
   .preview-container {
     width: 420px;
   }
+  .image-container {
+    height: 50vh;
+  }
+  .image-container img {
+    padding: 2%;
+  }
 }
 @media screen and (max-width: 420px) {
   .preview-container {
@@ -89,9 +95,6 @@ body {
   .image-container {
     width: calc(50%);
   }
-  .image-container img {
-    padding: 0 2%;
-  }
   .preview-container {
     width: 700px;
   }
@@ -99,5 +102,9 @@ body {
 @media screen and (orientation: landscape) and (max-width: 670px) {
   .preview-container {
     width: 560px;
+  }
+  .image-container {
+    width: 90vw;
+    height: 100vh;
   }
 }
